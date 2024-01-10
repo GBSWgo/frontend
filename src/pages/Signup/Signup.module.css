@@ -1,0 +1,118 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: -200px;
+  width: 210px;
+  margin-bottom: 40px;
+}
+
+.text {
+  width: 270px;
+  height: 60px;
+  border-radius: 103px;
+  background: rgba(221, 231, 226, 0.50);
+  outline: none;
+  border: none;
+  padding-left: 80px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.text::placeholder { color:#a8a8a8; }
+
+.icon {
+  width: 30px;
+  margin-left: -280px;
+  z-index: 10;
+  position: absolute;
+}
+
+.inputContainer {
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.btnContainer {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+}
+
+.btn {
+  width: 350px;
+  height: 60px;
+  border-radius: 103px;
+  background: #63D698;
+  box-shadow: 0px 1px 7.6px 2px rgba(165, 255, 206, 0.66);
+  margin: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn2 {
+  width: 310px;
+  display: flex;
+  justify-content: flex-end;
+  color: #63D698;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.notificationContainer {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  margin-left: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  color: rgb(25, 25, 25);
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: transform .5s;
+}
+
+.xmark {
+  margin-right: 10px;
+}
+
+.notificationx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  color: rgb(25, 25, 25);
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: transform .5s;
+  transform: translateY(-100px);
+}

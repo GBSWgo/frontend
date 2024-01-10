@@ -1,0 +1,46 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: -200px;
+  width: 210px;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 28px;
+  font-weight: 600;
+  color: #63D698;
+}
+
+.btnContainer {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+}
+
+.btn {
+  width: 350px;
+  height: 60px;
+  border-radius: 103px;
+  background: #63D698;
+  box-shadow: 0px 1px 7.6px 2px rgba(165, 255, 206, 0.66);
+  margin: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
